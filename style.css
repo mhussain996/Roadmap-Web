@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #080318;
+    font-family: sans-serif;
+    color: white;
+}
+
+/* NAVBAR */
+
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    width: 60%;
+    height: 50%;
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav_items {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row;
+}
+
+
+.items {
+    color: grey;
+    display: flex;
+    align-items: center;
+}
+
+.upgrade {
+    display: flex;
+    color: yellow;
+    align-items: center;
+}
+
+.icon {
+    width: 15px;
+    height: 15px;
+}
+
+button {
+    display: flex;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 999px;
+    color: white;
+}
+
+.log {
+    background-color: transparent;
+    color: grey;
+}
+
+.sign {
+    color: white;
+    padding: 8px 30px;
+    background-color: #004cff;
+}
+
+/* MAIN CONTENT */
+
+.container {
+    width: 100%;
+}
+
+.content_container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+
+.heading_div {
+    margin-top: 70px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    background: linear-gradient(90deg,
+            #c084fc,
+            #e879f9,
+            #f472b6);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    max-width: 800px;
+    margin-bottom: 20px; 
+}
+
+.heading_item h1 {
+    font-size: 50px;
+}
+
+.paragraph_div {
+    width: 100%;
+    max-width: 800px;
+}
+
+.paragraph_div p {
+    line-height: 30px;
+}
+
+.hrule {
+    position: relative;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.rule {
+    background-color: grey;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+}
+
+.rule_text {
+    top: -28px;
+    position: relative;
+    display: flex;
+    margin: 10px auto;
+    color: grey;
+    text-align: center;
+    background-color: #0e162a;
+    z-index: 100;
+    border: 1px solid grey;
+    width: 14%;
+    padding: 10px 12px;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.maps {
+    margin-top: 30px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: flex-start;
+    margin-bottom: 120px;
+}
+
+.maps_container {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.map_items {
+    color: rgb(161, 149, 149);
+    background-color: hsl(224, 58%, 10%);
+    display: flex;
+    border: 1px solid grey;
+    height: 45px;
+    width: 280px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.map_items>.text {
+    padding: 13px 25px;
+}
+
+.map_items span {
+    padding: 5px 10px;
+}
+
+.maps2 {
+    margin-top: 30px;
+    height: 950px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: flex-start;
+    margin-bottom: 120px;
+}
+
+.hrule2 {
+    margin-top: 50px;
+    position: relative;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.rule2 {
+    background-color: grey;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+}
+
+.rule_text2 {
+    top: -18px;
+    position: relative;
+    display: flex;
+    margin: 10px auto;
+    color: grey;
+    text-align: center;
+    background-color: #0e162a;
+    z-index: 100;
+    border: 1px solid grey;
+    width: 14%;
+    padding: 10px 12px;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.hrule3 {
+    margin-top: 50px;
+    position: relative;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.rule3 {
+    background-color: grey;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+}
+
+.rule_text3 {
+    top: -18px;
+    position: relative;
+    display: flex;
+    margin: 10px auto;
+    color: grey;
+    text-align: center;
+    background-color: #0e162a;
+    z-index: 100;
+    border: 1px solid grey;
+    width: 10%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.maps3 {
+    margin-top: 30px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: flex-start;
+    margin-bottom: 120px;
+}
+
+.maps_container3 {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.maps4 {
+    margin-top: 30px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: flex-start;
+    margin-bottom: 120px;
+}
+
+.maps_container4 {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
