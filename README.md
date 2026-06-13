@@ -3,8 +3,7 @@
 
 A beautiful, modern, and interactive collection of **Developer Roadmaps**, Project Ideas, and Best Practices. Built with pure HTML & CSS.
 
-
-![Preview](https://mhussain-sites-roadmap-web.surge.sh/)
+(https://mhussain-sites-roadmap-web.surge.sh/)
 
 
 ## ✨ Features
